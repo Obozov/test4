@@ -782,7 +782,12 @@
 			preloader();
 		</script>
 	</div>
-	<script src="js/app.min.js?_v=20231209132954"></script>('https://widget.replain.cc/dist/client.js');
+	<script>
+		window.replainSettings = { id: '36b124a7-14bf-412f-b92f-5429ead5e366' };
+		(function (u) {
+			var s = document.createElement('script'); s.async = true; s.src = u;
+			var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+		})('https://widget.replain.cc/dist/client.js');
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js?_v=20231209132954"></script>
 </body>
